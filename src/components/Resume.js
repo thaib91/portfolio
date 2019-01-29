@@ -22,7 +22,7 @@ export default  class Resume extends Component {
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
                           <p>
-                          {item.Achievements}
+                          {/* {item.Achievements} */}
                           </p>
                        </div>
                     </div>
@@ -31,7 +31,7 @@ export default  class Resume extends Component {
               }
             </div>
          </div>
-        <div className="row work">
+        {/* <div className="row work">
             <div className="three columns header-col">
                <h1><span>Work</span></h1>
             </div>
@@ -57,9 +57,9 @@ export default  class Resume extends Component {
                 })
               }
             </div> 
-         </div>
+         </div> */}
 
-
+{/* 
          <div className="row skill">
 
             <div className="three columns header-col">
@@ -90,9 +90,9 @@ export default  class Resume extends Component {
 
    				</div>
 
-   			</div>
+   			</div> */}
 
-         </div>
+         {/* </div> */}
 
       </section>
     );
