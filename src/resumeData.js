@@ -74,9 +74,9 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"TeamLyfe.com",
+        "description":"Personal Project for DevMountain: Accountable Page",
+        "imgurl":"images/teamLyfepic1.png"
       },
       {
         "name":"project2",

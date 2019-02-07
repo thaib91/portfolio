@@ -3,7 +3,7 @@ export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <React.Fragment>
+      <>
       
       <header id="home">
          <nav id="nav-wrap">
@@ -45,7 +45,7 @@ export default class Header extends Component {
          </p>
 
       </header>
-      </React.Fragment>
+      </>
     );
   }
 }
