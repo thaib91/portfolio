@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Thai Bui",
-    "role": "Web Developer",
+    "role": "Full Stack Developer",
     "linkedinId":"https://www.linkedin.com/in/thai-b-bui/",
     "skypeid": "E-mail: tbui64@gmail.com",
     "roleDescription": ' const quote = "Give a Man (or Woman) a Fish, and You Feed Him for a Day. Teach a Man (or Women) To Fish, and You Feed Him for a Lifetime -proverb?" quote.replace(/to fish/gi, "To Code")',
@@ -60,18 +60,45 @@ let resumeData = {
         "Achievements":"Some Achievements"
       }
     ],
-    // "skillsDescription":"Your skills here",
-    // "skills":[
-    //   {
-    //     "skillname":"HTML5"
-    //   },
-    //   {
-    //     "skillname":"CSS"
-    //   },
-    //   {
-    //     "skillname":"Reactjs"
-    //   }
-    // ],
+    "skillsDescription":"",
+    "skills":[
+      {
+        "skillname":"images/logos/javascript.png"
+      },
+      {
+        "skillname":"images/logos/css3.png"
+      },
+      {
+        "skillname":"images/logos/html.png"
+      },
+      {
+        "skillname":"images/logos/react.png"
+      },
+      {
+        "skillname":"images/logos/redux.png"
+      },
+      {
+        "skillname":"images/logos/sass.png"
+      },
+      {
+        "skillname":"images/logos/postgres.png"
+      },
+      {
+        "skillname":"images/logos/node.png"
+      },
+      {
+        "skillname":"images/logos/express.png"
+      },
+      {
+        "skillname":"images/logos/brain.png"
+      },
+      {
+        "skillname":"images/logos/react-bootstrap.png"
+      },
+      {
+        "skillname":"images/logos/massive.png"
+      }
+    ],
     "portfolio":[
       {
         "name":"TeamLyfe.com",
@@ -94,7 +121,7 @@ let resumeData = {
         "imgurl":"images/portfolio/phone.jpg"
       }
     ],
-    "skills":[
+    "testimonials":[
       {
         "img":"public/images/logos/javascript.png",
       },

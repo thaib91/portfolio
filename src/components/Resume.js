@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './resume.scss'
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -59,40 +60,29 @@ export default  class Resume extends Component {
             </div> 
          </div> */}
 
-{/* 
+
          <div className="row skill">
 
             <div className="three columns header-col">
                <h1><span>Skills</span></h1>
             </div>
 
-            <div className="nine columns main-col">
-
-               <p>
-               {resumeData.skillsDescription}
-               </p>
-
-   				<div className="bars">
+            <div className="skills-list">
 
    				   <ul className="skills">
                 {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
-                      <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
-                      </li>
+                       <img src={item.skillname} alt=""/>
                     )
                   })
                 }
 
    					</ul>
 
-   				</div>
+   			</div> 
 
-   			</div> */}
-
-         {/* </div> */}
+         </div>
 
       </section>
     );

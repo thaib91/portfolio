@@ -13,7 +13,7 @@ export default class Testimonials extends Component {
               <div className="flexslider">
                 <ul className="slides">
                   {
-                    resumeData.skills && resumeData.skills.map((item)=>{
+                    resumeData.testimonials && resumeData.testimonials.map((item)=>{
                       console.log(item)
                       return(
                         <img src={item.img} style={{height:'200px', width: '200px', zIndex:'5' }} alt=""/>

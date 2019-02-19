@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 /*
 =====================================================================
 *   Ceevee v1.0 Layout Stylesheet
@@ -237,7 +238,7 @@ ul#nav li.current a { color: black; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #FEFEFE;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
