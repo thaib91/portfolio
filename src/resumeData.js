@@ -60,18 +60,18 @@ let resumeData = {
         "Achievements":"Some Achievements"
       }
     ],
-    "skillsDescription":"Your skills here",
-    "skills":[
-      {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
-      }
-    ],
+    // "skillsDescription":"Your skills here",
+    // "skills":[
+    //   {
+    //     "skillname":"HTML5"
+    //   },
+    //   {
+    //     "skillname":"CSS"
+    //   },
+    //   {
+    //     "skillname":"Reactjs"
+    //   }
+    // ],
     "portfolio":[
       {
         "name":"TeamLyfe.com",
@@ -94,14 +94,12 @@ let resumeData = {
         "imgurl":"images/portfolio/phone.jpg"
       }
     ],
-    "testimonials":[
+    "skills":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "img":"public/images/logos/javascript.png",
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "img":"This is a sample testimonial",
       }
     ]
   }

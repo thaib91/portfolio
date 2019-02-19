@@ -6,23 +6,17 @@ export default class Testimonials extends Component {
       <section id="testimonials">
         <div className="text-container">
           <div className="row">
-            <div className="two columns header-col">
-              <h1><span>Client Testimonials</span></h1>
-            </div>
+            {/* <div className="two columns header-col">
+              <h1><span>Skills</span></h1>
+            </div> */}
             <div className="ten columns flex-container">
               <div className="flexslider">
                 <ul className="slides">
                   {
-                    resumeData.testimonials && resumeData.testimonials.map((item)=>{
+                    resumeData.skills && resumeData.skills.map((item)=>{
+                      console.log(item)
                       return(
-                        <li>
-                          <blockquote>
-                            <p>
-                            {item.description}
-                            </p>
-                            <cite>{item.name}</cite>
-                          </blockquote>
-                        </li>
+                        <img src={item.img} style={{height:'200px', width: '200px', zIndex:'5' }} alt=""/>
                       )
                     })
                   }
