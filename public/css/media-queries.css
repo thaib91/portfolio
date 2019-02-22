@@ -50,9 +50,11 @@
    /* About Section
    ------------------------------------------------------------------- */
    #about .profile-pic {
-      width: 114px;
-      height: 114px;
-      margin-left: 12px;
+      position: relative;
+      width: 19rem;
+      height: 14rem;
+      border-radius: 18%;
+      margin-top: 4rem;
    }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }

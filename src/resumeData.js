@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Thai Bui",
-    "role": "Full Stack Developer",
+    "role": "Software Developer",
     "linkedinId":"https://www.linkedin.com/in/thai-b-bui/",
     "skypeid": "E-mail: tbui64@gmail.com",
-    "roleDescription": ' const quote = "Give a Man (or Woman) a Fish, and You Feed Him for a Day. Teach a Man (or Women) To Fish, and You Feed Him for a Lifetime -proverb?" quote.replace(/to fish/gi, "To Code")',
+    "roleDescription": ' const quote = "Give a Man (or Woman) a Fish, and You Feed Him(or Her) for a Day. Teach a Man (or Woman) To Fish, and You Feed Him(or Her) for a Lifetime -proverb?" quote.replace(/fish/gi, "Code")',
     "socialLinks":[
         {
           "name":"linkedin",
@@ -22,7 +22,7 @@ let resumeData = {
         //   "className":"fa fa-twitter"
         // }
       ],
-    "aboutme": "Taking a calculated risk away from banking, business development and sales, Thai has spent over a year teaching amazing students abroad. During free time throughout his travels, he continued to find excitement in the process of learning the many skills developers must need to know (There's a lot of time when you're sitting on a plane, train or automobile). Now that he's back, Thai is ready to jump head first into a lifelong learning career in software engineering and web development",
+    "aboutme": "Taking a calculated risk away from banking, business development and sales, Thai has spent over a year teaching amazing students abroad. During free time throughout his travels, he continued to find excitement in the process of learning the many skills developers must need to know (There's a lot of time when you're sitting on a plane, train or automobile). As an ex-professional athlete, habits like hard work, dedication, and tenacity are not new. Plus now that he's back, Thai is excited to jump head first into a lifelong learning career as a software developer.",
 
 
 
@@ -75,10 +75,7 @@ let resumeData = {
         "skillname":"images/logos/react.png"
       },
       {
-        "skillname":"images/logos/redux.png"
-      },
-      {
-        "skillname":"images/logos/sass.png"
+        "skillname":"images/logos/brain.png"
       },
       {
         "skillname":"images/logos/postgres.png"
@@ -87,38 +84,64 @@ let resumeData = {
         "skillname":"images/logos/node.png"
       },
       {
-        "skillname":"images/logos/express.png"
+        "skillname":"images/logos/redux.png"
       },
       {
-        "skillname":"images/logos/brain.png"
+        "skillname":"images/logos/massive.png"
+      },
+      {
+        "skillname":"images/logos/sass.png"
       },
       {
         "skillname":"images/logos/react-bootstrap.png"
       },
       {
-        "skillname":"images/logos/massive.png"
-      }
+        "skillname":"images/logos/express.png"
+      },      
+      {
+        "skillname":"images/logos/jest.png"
+      },
+      {
+        "skillname":"images/logos/git.png"
+      },
+      {
+        "skillname":"images/logos/socket.png"
+      },
+
     ],
     "portfolio":[
       {
         "name":"TeamLyfe.com",
+        "award": "|Winner of Most Technical Web Application for Cohort|",
         "description":"Personal Project for DevMountain: Accountable Page",
+        "details":"When the New Year rang, and a project was due, the idea for TeamLyfe was born… There is always an issue of remaining accountable to your goals. Whether it’s a New Year’s Resolution or just something simple like promising yourself to workout once a week. It’s a task that needs discipline and habit. TeamLyfe combines a social connection that will help you fulfill your goals. The accountable section is for you to keep track of your goals. It uses Twilio and NodeMailer paired with Cron to send reminders weekly to you not to forget what's important.",
+        "tech":"Cron | BcryptJS | Socket.io | Twilio | NodeMailer | React-Bootstrap | Brain.js | SCSS | ReactJS | Redux | Node | Express | Massive | PostgresSQL | Javascript | HTML | CSS",
         "imgurl":"images/teamLyfepic1.png"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"TeamLyfe.com",
+        "award": "|Winner of Most Technical Web Application for Cohort|",
+        "description":"Personal Project for DevMountain: Skillshare Page",
+        "details":"Being accountable is tough enough alone. So why not have a little help? The skillshare portion of TeamLyfe connects you with those willing to share a skill with you. Using Socket.io, you can live chat with the other Lyfers and plan a time to learn in person. There is also a recommendation engine based off of Brain.js. It can take in any short sentence of what you'd like to learn, and understand whether you are focused on building your Brain or Body.",
+        "imgurl":"images/teamLyfepic2.png",
+        "tech":"Cron | BcryptJS | Socket.io | Twilio | NodeMailer | React-Bootstrap | Brain.js | SCSS | ReactJS | Redux | Node | Express | Massive | PostgresSQL | Javascript | HTML | CSS",
+
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Cramify",
+        "award":"",
+        "description":"Group Project for DevMountain:",  
+        "details":"Waking up the morning of our mock pitch, an epiphany hit that would kill two birds with one stone. A project that would both be fun and rewarding. Based off the idea of Kahoot, a live game where players could specifically study software developer topics. However, it would be better, the game would be able to be used anywhere and not just in a group environment. The application revolves around manipulating data from front to back and using Socket.io as the heart of the game engine.",
+        "imgurl":"https://happytoothnc.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-1.jpg",
+        "tech":"BcryptJS | Socket.io | SweetAlert.js | SCSS | ReactJS | Redux | Node | Express | Massive | PostgresSQL | Javascript | HTML | CSS |"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Cramify",
+        "award": "",
+        "description":"Group Project for DevMountain:",
+        "details":"Throughout the project, the group all worked together on most components. The main components I was leading and spending a majority of the time on were the logic behind the game and everything involving the questions (CRUD). Socket.io for our live function was also a large part of the time spent on this application. Learning how the data moved between components was one of the most fun I’ve had building an application.",
+        "imgurl":"https://happytoothnc.com/wp-content/uploads/2016/10/orionthemes-placeholder-image-1.jpg",
+        "tech":"BcryptJS | Socket.io | SweetAlert.js | SCSS | ReactJS | Redux | Node | Express | Massive | PostgresSQL | Javascript | HTML | CSS |"
       }
     ],
     "testimonials":[

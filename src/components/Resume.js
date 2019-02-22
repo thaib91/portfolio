@@ -74,6 +74,7 @@ export default  class Resume extends Component {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
                        <img src={item.skillname} alt=""/>
+                       
                     )
                   })
                 }
