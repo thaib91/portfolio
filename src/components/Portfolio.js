@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import './portfolio.scss';
+
 export default class Porfolio extends Component {
   render() {
+
     let resumeData = this.props.resumeData;
     return (
       <section id="portfolio">
@@ -26,7 +29,6 @@ export default class Porfolio extends Component {
               )
             })
           }
-
       </div>
   </section>
         );
