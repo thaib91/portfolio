@@ -3,8 +3,12 @@
 
 #portfolio {
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     .row {
-        max-width: auto;
         display: flex;
         flex-wrap: wrap;
     }
@@ -32,4 +36,5 @@
     width: 90vw;
     // height: 50vh;
     margin: auto;
+    position: relative;
 }

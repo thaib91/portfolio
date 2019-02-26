@@ -130,7 +130,7 @@ let resumeData = {
         "name":"TeamLyfe.com",
         "award": "|Winner of Most Technical Web Application for Cohort|",
         "description":"Personal Project for DevMountain: Accountable Page",
-        "details":"When the New Year rang, and a project was due, the idea for TeamLyfe was born… There is always an issue of remaining accountable to your goals. Whether it’s a New Year’s Resolution or just something simple like promising yourself to workout once a week. It’s a task that needs discipline and habit. TeamLyfe combines a social connection that will help you fulfill your goals. The accountable section is for you to keep track of your goals. It uses Twilio and NodeMailer paired with Cron to send reminders weekly to you not to forget what's important.",
+        "details":"When the New Year rang, and a project was due, the idea for TeamLyfe was born… There is always an issue of remaining accountable to your goals. Whether it’s a New Year’s Resolution or just something simple like promising yourself to workout once a week. It’s a task that needs discipline and habit. TeamLyfe combines a social connection that will help you fulfill your goals. The accountable section is for you to keep track of your goals. It uses Twilio and NodeMailer paired with Cron to send reminders weekly so you remember not to forget what's important.",
         "tech":"Cron | BcryptJS | Socket.io | Twilio | NodeMailer | React-Bootstrap | Brain.js | SCSS | ReactJS | Redux | Node | Express | Massive | PostgresSQL | Javascript | HTML | CSS",
         "imgurl":"images/teamLyfepic1.png",
         "github":"https://github.com/thaib91/lyfe",

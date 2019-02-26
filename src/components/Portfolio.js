@@ -15,7 +15,7 @@ export default class Porfolio extends Component {
     const map = resumeData.portfolio.map(item => {
       return (
         <div className="columns portfolio-item"> 
-          <div className="item-wrap">
+          <div className="item-wrap" style={{width:"fit-content", margin: "auto"}}>
             <img
               src={`${item.imgurl}`}
               alt="project-photos"
