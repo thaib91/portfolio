@@ -18,9 +18,9 @@ export default class ContactUs extends Component {
               <div className="widget">
                 <br/>
                 <h4>Project Links:</h4>
-                  <a href="https://www.teamlyfe.com/#/">TeamLyfe</a>
+                  <a href="https://www.teamlyfe.com/#/">TeamLyfe</a> <a href="https://github.com/thaib91/lyfe"> | Github</a>
                   <br/>
-                  <a href="https://cramify.net/#/">Cramify</a>
+                  <a href="https://cramify.net/#/">Cramify</a> <a href="https://github.com/Cramify/cramify"> | Github</a>
               </div>
             </aside>
           </div>
