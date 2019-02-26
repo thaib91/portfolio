@@ -1,13 +1,35 @@
 .skills-list{
-    padding-left: 4rem;
+    padding-right: 4rem;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 
     .skills{
         padding: 1rem;
-        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        // margin: 1rem;
+
+        span{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .skill-list{
+            .skill-text {
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+
+            }
+        }
     }
 
     img{

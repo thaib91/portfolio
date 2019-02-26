@@ -14,9 +14,11 @@ export default class ContactUs extends Component {
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                <h4>Linked in :
-                  {resumeData.linkedinId}
-                </h4>
+                <br/>
+                <h4>Project Links:</h4>
+                  <a href="https://www.teamlyfe.com/#/">TeamLyfe</a>
+                  <br/>
+                  <a href="https://cramify.net/#/">Cramify</a>
               </div>
             </aside>
           </div>
