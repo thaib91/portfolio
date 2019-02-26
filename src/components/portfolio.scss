@@ -2,6 +2,7 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 #portfolio {
+    padding-top: 50px;
     .row {
         max-width: auto;
         display: flex;
@@ -14,7 +15,7 @@
 
 .portfolio-item{
     width: 50vw;
-    height: 50vh;
+    height: 70vh;
 }
 
 #portfolio .portfolio-header h1 span {

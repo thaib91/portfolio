@@ -148,7 +148,7 @@ let resumeData = {
       {
         "name":"Cramify",
         "award":"",
-        "description":"Group Project for DevMountain:",  
+        "description":"Group Project for DevMountain: Landing Page",  
         "details":"Waking up the morning of our mock pitch, an epiphany hit that would kill two birds with one stone. A project that would both be fun and rewarding. Based off the idea of Kahoot, a live game where players could specifically study software developer topics. However, it would be better, the game would be able to be used anywhere and not just in a group environment. The application revolves around manipulating data from front to back and using Socket.io as the heart of the game engine.",
         "imgurl":"images/landing.png",
         "tech":"BcryptJS | Socket.io | SweetAlert.js | SCSS | ReactJS | Redux | Node | Express | Massive | PostgresSQL | Javascript | HTML | CSS |",
@@ -158,13 +158,43 @@ let resumeData = {
       {
         "name":"Cramify",
         "award": "",
-        "description":"Group Project for DevMountain:",
+        "description":"Group Project for DevMountain: Game Room",
         "details":"Throughout the project, the group all worked together on most components. The main components I was leading and spending a majority of the time on were the logic behind the game and everything involving the questions (CRUD). Socket.io for our live function was also a large part of the time spent on this application. Learning how the data moved between components was one of the most fun I’ve had building an application.",
         "imgurl":"images/game-room.png",
         "tech":"BcryptJS | Socket.io | SweetAlert.js | SCSS | ReactJS | Redux | Node | Express | Massive | PostgresSQL | Javascript | HTML | CSS |",
         "github":"https://github.com/team-voldemort/cramify",
 
-      }
+      },
+      {
+        "name":"Cramify",
+        "award": "",
+        "description":"Group Project for DevMountain: Dashboard",
+        "details":"At the dashboard, a user is able to create, edit and delete their game sets for what they want to study. They are also able to completely edit their user information as well. The image is auto genrated using robo-hash on our server side.",
+        "imgurl":"images/dashboard.png",
+        "tech":"BcryptJS | Socket.io | SweetAlert.js | SCSS | ReactJS | Redux | Node | Express | Massive | PostgresSQL | Javascript | HTML | CSS |",
+        "github":"https://github.com/team-voldemort/cramify",
+
+      },
+      {
+        "name":"Cramify",
+        "award": "",
+        "description":"Group Project for DevMountain: Create New Question Sets",
+        "details":"A user has complete control of creating what content they would like to study. Currently the question genres are Javascript, HTML, CSS, React and Computer Science. Using AJAX calls to our PostGres database, a user can keep their sets linked to their user and have access to a general set created by the admin.",
+        "imgurl":"images/add-page.png",
+        "tech":"BcryptJS | Socket.io | SweetAlert.js | SCSS | ReactJS | Redux | Node | Express | Massive | PostgresSQL | Javascript | HTML | CSS |",
+        "github":"https://github.com/team-voldemort/cramify",
+
+      },
+      {
+        "name":"Cramify",
+        "award": "",
+        "description":"Group Project for DevMountain: Waiting Room",
+        "details":"The waiting room is used to house the users wanting to play the game so that they can see their other competitors. The creator of the game has control when the game starts.",
+        "imgurl":"images/wait-room.png",
+        "tech":"BcryptJS | Socket.io | SweetAlert.js | SCSS | ReactJS | Redux | Node | Express | Massive | PostgresSQL | Javascript | HTML | CSS |",
+        "github":"https://github.com/team-voldemort/cramify",
+
+      },
     ],
     "testimonials":[
       {
