@@ -94,10 +94,10 @@ let resumeData = {
         "skillname":"images/logos/redux.png",
         "textname": "Redux"
       },
-      {
-        "skillname":"images/logos/massive.jpg",
-        "textname": "Massive"
-      },
+      // {
+      //   "skillname":"images/logos/massive.jpg",
+      //   "textname": "Massive"
+      // },
       {
         "skillname":"images/logos/sass.png",
         "textname": "SASS"

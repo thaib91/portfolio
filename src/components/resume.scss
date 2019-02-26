@@ -1,5 +1,5 @@
 .skills-list{
-    padding-right: 4rem;
+    // padding-right: 18rem;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -7,7 +7,7 @@
     align-items: center;
 
     .skills{
-        padding: 1rem;
+        padding-right: 15rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -37,5 +37,15 @@
         width: auto;
         margin: .5rem;
         padding: 1rem;
+    }
+}
+
+@media(max-width: 380px){
+    .skills-list .skills{
+        padding-right: 0rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 }
