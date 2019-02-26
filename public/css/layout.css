@@ -205,7 +205,8 @@ ul#nav li.current a { color: black; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: lightgray;
+   margin: 4rem;
 }
 #about .profile-pic {
    position: relative;

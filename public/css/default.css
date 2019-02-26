@@ -152,6 +152,16 @@ body {
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 }
+.fa-github:before{
+   color:#575757;
+}
+.fa-linkedin:before{
+   color:#575757;
+}
+
+.icon-down-circle:before{
+   color: #575757;
+}
 
 /*  2. Typography
        Vertical rhythm with leading derived from 6
