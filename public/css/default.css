@@ -140,6 +140,10 @@ html {
    font-size: 62.5%;
    -webkit-font-smoothing: antialiased;
 }
+.fa-medium:before{
+   content: "\f23a";
+   color: #575757;
+ }
 
 body {
    background: #fff;

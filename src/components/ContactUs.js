@@ -11,12 +11,16 @@ export default class ContactUs extends Component {
               <br/>
               <h5>Email:</h5><a href="mailto: tbui64@gmail.com">tbui64@gmail.com</a>
               </p>
+              <br/>
+              <h4>Articles Published:</h4>
+                <a href="https://medium.com/@thaibui_28581/the-before-my-truth-in-learning-to-code-as-a-newbie-f13f134c6aeb">
+                 Medium: The Before: My Truth In Learning To Code As A Newbie
+                </a>
             </div>
           </div>
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                <br/>
                 <h4>Project Links:</h4>
                   <a href="https://www.teamlyfe.com/#/">TeamLyfe</a> <a href="https://github.com/thaib91/lyfe"> | Github</a>
                   <br/>

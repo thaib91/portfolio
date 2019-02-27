@@ -16,11 +16,11 @@ let resumeData = {
           "url":"https://github.com/thaib91",
           "className":"fa fa-github"
         },
-        // {
-        //   "name":"skype",
-        //   "url":"http://twitter.com/rbhatia46",
-        //   "className":"fa fa-twitter"
-        // }
+        {
+          "name":"medium",
+          "url":"https://medium.com/@thaibui_28581/the-before-my-truth-in-learning-to-code-as-a-newbie-f13f134c6aeb",
+          "className":"fab fa-medium"
+        }
       ],
     "aboutme": "Taking a calculated risk away from banking, business development and sales, Thai has spent over a year teaching amazing students abroad. During free time throughout his travels, he continued to find excitement in the process of learning the many skills developers must need to know (There's a lot of time when you're sitting on a plane, train or automobile). As an ex-professional athlete, habits like hard work, dedication, and tenacity are not new. Plus now that he's back, Thai is excited to jump head first into a lifelong learning career as a software developer.",
 

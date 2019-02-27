@@ -14,7 +14,6 @@ export default class Testimonials extends Component {
                 <ul className="slides">
                   {
                     resumeData.testimonials && resumeData.testimonials.map((item)=>{
-                      console.log(item)
                       return(
                         <img src={item.img} style={{height:'200px', width: '200px', zIndex:'5' }} alt=""/>
                       )

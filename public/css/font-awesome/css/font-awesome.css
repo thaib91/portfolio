@@ -26,6 +26,7 @@
   line-height: 0.75em;
   vertical-align: -15%;
 }
+
 .fa-2x {
   font-size: 2em;
 }
@@ -189,6 +190,7 @@
 }
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
+
 .fa-glass:before {
   content: "\f000";
 }
@@ -638,6 +640,7 @@
   content: "\f09b";
   color: #575757;
 }
+
 .fa-unlock:before {
   content: "\f09c";
 }

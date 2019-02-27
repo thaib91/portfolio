@@ -40,7 +40,7 @@ export default class Porfolio extends Component {
       <section id="portfolio">
           <div className="portfolio-header">
             <h1>
-              <span>Projects</span>
+              <span>Projects: Hover Over For More Details!</span>
             </h1>
           </div>
         <div className="row">
