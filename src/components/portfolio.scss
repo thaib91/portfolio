@@ -38,3 +38,13 @@
     margin: auto;
     position: relative;
 }
+
+.slick-next:before, .slick-prev:before {
+    font-family: slick;
+    font-size: 3rem;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
