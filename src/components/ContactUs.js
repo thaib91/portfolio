@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Messenger from '../components/Messenger';
+
 export default class ContactUs extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -27,6 +29,7 @@ export default class ContactUs extends Component {
                   <a href="https://cramify.net/#/">Cramify</a> <a href="https://github.com/Cramify/cramify"> | Github</a>
               </div>
             </aside>
+            <Messenger />
           </div>
         </section>
         );
