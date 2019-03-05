@@ -26,6 +26,9 @@ export default class Messenger extends Component {
             input: 'textarea',
             inputPlaceholder: 'Please send me a text and include your name and phone number for me to reach back.',
             showConfirmButton: true,
+            inputValidator: (value) => {
+                return !value && "Please write a message. Don't forget your Contact Info!"
+            }
           })
           
           if (text) {
@@ -38,8 +41,11 @@ export default class Messenger extends Component {
         const {value: text} = await Swal.fire({
             title: 'Send an E-mail to Thai!',
             input: 'textarea',
-            inputPlaceholder: 'E-mail me directly HERE! Please Include Your Name and Contact Information for me to reach back',
+            inputPlaceholder: 'E-mail me directly HERE! Please Include Your Name and Contact Information for me to reach back.',
             showConfirmButton: true,
+            inputValidator: (value) => {
+                return !value && "Please write a message. Don't forget your Contact Info!"
+            }
           })
           if (text) {
             await axios.get(`/email?text=${text}`)
