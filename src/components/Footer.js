@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './footer.scss'
 export default class Footer extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -23,6 +24,8 @@ export default class Footer extends Component {
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
       </div>
+
+      <h5>Portfolio Tech: React | Twilio | NodeMailer | SCSS | Javascript | HTML | CSS | Node | Express </h5>
     </footer>
     );
   }

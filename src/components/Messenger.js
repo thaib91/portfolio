@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 import { Button } from 'react-bootstrap';
+import './messenger.scss';
 
 export default class Messenger extends Component {
     constructor(props) {
@@ -23,8 +24,8 @@ export default class Messenger extends Component {
         const {value: text} = await Swal.fire({
             title: 'Send a text to Thai!',
             input: 'textarea',
-            inputPlaceholder: 'Text me directly HERE',
-            showConfirmButton: true
+            inputPlaceholder: 'Please send me a text and include your name and phone number for me to reach back.',
+            showConfirmButton: true,
           })
           
           if (text) {
@@ -37,8 +38,8 @@ export default class Messenger extends Component {
         const {value: text} = await Swal.fire({
             title: 'Send an E-mail to Thai!',
             input: 'textarea',
-            inputPlaceholder: 'E-mail me directly HERE!',
-            showConfirmButton: true
+            inputPlaceholder: 'E-mail me directly HERE! Please Include Your Name and Contact Information for me to reach back',
+            showConfirmButton: true,
           })
           if (text) {
             await axios.get(`/email?text=${text}`)
@@ -49,8 +50,8 @@ export default class Messenger extends Component {
     render() {
         return (
             <div className='messenger-btns'>
-                <Button onClick={this.sendText}> Text Message! </Button>
-                <Button onClick={this.sendEmail}> Email! </Button>
+                <Button onClick={this.sendText}> Text Thai! </Button>
+                <Button onClick={this.sendEmail}> Email Thai! </Button>
             </div>
         )
     }
