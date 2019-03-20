@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./portfolio.scss";
-import Slider from 'react-slick';
+import Slider from 'react-slick'; //imported in to have carousel on portfolio
 
 export default class Porfolio extends Component {
   render() {
